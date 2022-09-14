@@ -6,7 +6,7 @@
 
     <groupId>com.sapwbd</groupId>
     <artifactId>TwitchEmoteScraper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-RELEASE</version>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
