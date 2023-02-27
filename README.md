@@ -35,10 +35,10 @@ Clone the repository to your local file system
 Open a terminal of choice and switch to the repository directory. Run the following command
 
 ```
-.\{mvnwBinary} clean package
+{pathToMavenBinary} clean package
 ```
 
 where,  
-_mvnwBinary_ is either the mvnw or mvnw.cmd if your OS is linux based or Windows
+_pathToMavenBinary_ is either ./mvnw or .\mvnw.cmd for linux based and Windows OSes respectively
 
 The final artifact will be present in the target subdirectory as _TwitchEmoteScraper-{version}-jar-with-dependencies.jar_
