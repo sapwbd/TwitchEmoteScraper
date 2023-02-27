@@ -23,10 +23,10 @@ runnable JAR
 java -jar TwitchEmoteScraper-{version}-jar-with-dependencies.jar {clientId} {clientSecret} {broadcasterName} {outputDirectory}
 ```
 where,  
-clientId -> Obtained from the twitch developer console after registering your mock application  
-clientSecret -> Obtained from the twitch developer console after registering your mock application  
-broadcasterName -> Twitch broadcaster profile name  
-outputDirectory -> Output directory for the emotes
+_clientId_ -> Obtained from the twitch developer console after registering your mock application  
+_clientSecret_ -> Obtained from the twitch developer console after registering your mock application  
+_broadcasterName_ -> Twitch broadcaster profile name  
+_outputDirectory_ -> Output directory for the emotes
 
 ## Building the artifact
 
@@ -39,6 +39,6 @@ Open a terminal of choice and switch to the repository directory. Run the follow
 ```
 
 where,  
-{mvnwBinary} is either the mvnw or mvnw.cmd if your OS is linux based or Windows
+_mvnwBinary_ is either the mvnw or mvnw.cmd if your OS is linux based or Windows
 
 The final artifact will be present in the target subdirectory as _TwitchEmoteScraper-{version}-jar-with-dependencies.jar_
